@@ -10,12 +10,6 @@ You will need to compile the example first:
 
 	mvn install
 
-Remarks:
-- During the compilation phase, a unit test will be performed which simulates the
-  client calling the web service exposed by our camel/cxf route.
-- In Eclipse, I have used the following option when starting the junit test case. This option tells
-  CXF that it must use log4j : -Dorg.apache.cxf.Logger=org.apache.cxf.common.logging.Log4jLogger
-
 ### Run
 
 To run the example on Apache Karaf 2.4.x
