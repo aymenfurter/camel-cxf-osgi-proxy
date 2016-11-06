@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1478444758556
+Build-Jdk: 1.8.0_91
+Built-By: mika
+Bundle-Description: Simple local proxy of remote endpoint
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel :: Example :: CXF Proxy :: OSGI
+Bundle-SymbolicName: ch.aymenfurter.camel-example-proxy
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: org.apache.cxf;version="[3.1,4)",org.apache.cxf.binding;
+ version="[3.1,4)",org.apache.cxf.binding.corba,org.apache.cxf.binding.s
+ oap;version="[3.1,4)",org.apache.cxf.binding.soap.spring;version="[3.1,
+ 4)",org.apache.cxf.bus;version="[3.1,4)",org.apache.cxf.bus.resource;ve
+ rsion="[3.1,4)",org.apache.cxf.bus.spring;version="[3.1,4)",org.apache.
+ cxf.buslifecycle;version="[3.1,4)",org.apache.cxf.catalog;version="[3.1
+ ,4)",org.apache.cxf.configuration;version="[3.1,4)",org.apache.cxf.conf
+ iguration.spring;version="[3.1,4)",org.apache.cxf.endpoint;version="[3.
+ 1,4)",org.apache.cxf.headers;version="[3.1,4)",org.apache.cxf.managemen
+ t;version="[3.1,4)",org.apache.cxf.management.jmx,org.apache.cxf.phase;
+ version="[3.1,4)",org.apache.cxf.resource;version="[3.1,4)",org.apache.
+ cxf.service.factory;version="[3.1,4)",org.apache.cxf.transport;version=
+ "[3.1,4)",org.apache.cxf.transport.http;version="[3.1,4)",org.apache.cx
+ f.transport.http.policy;version="[3.1,4)",org.apache.cxf.transport.http
+ _jetty,org.apache.cxf.transport.jms,org.apache.cxf.workqueue;version="[
+ 3.1,4)",org.apache.cxf.wsdl;version="[3.1,4)",org.apache.cxf.wsdl11;ver
+ sion="[3.1,4)"
+Tool: Bnd-3.2.0.201605172007
